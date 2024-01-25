@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eca696f61e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="home-sec">
+        <nav>
+            <div class="left">portfolio</div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#home-sec"> Home </a> </li>
+                    <li><a href="#aboutsection"> About </a> </li>
+                    <li><a href="#skills-sec"> Skills </a> </li>
+                    <li><a href="#contact-sec"> Contact </a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-sec">
+            <div class="left-sec">
+                <p> Hi, My name is <span class="spanclr">Gaurav</span> </p>
+                <div>and i am a</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="right-sec">
+
+                <img src="dev-img.webp" id="dev-img" alt="developer image">
+            </div>
+        </section>
+    </main>
+    <section id="aboutsection">
+        <hr id="line1">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <h1 class="h1-about">About</h1>
+                    <p id="about-data">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero consequatur
+                        architecto rem
+                        mollitia, maiores amet a beatae quia facilis odio sequi perferendis rerum quaerat temporibus
+                        fugiat. Aut error optio at pariatur, eos officia adipisci exercitationem molestiae voluptatem
+                        quia commodi omnis? Quia perspiciatis magni explicabo? Et!</p>
+
+                </div>
+                <!-- <div class="col-2">
+                    <h1>skills</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ipsam modi autem vel possimus quibusdam architecto debitis laboriosam, nihil repellendus, officia mollitia voluptates pariatur. Id repellendus dolorum quia porro. Aliquam provident modi totam quos vero cumque unde, maxime velit impedit, quae magni, dolor delectus consequatur aspernatur fugiat corporis est id qui accusamus animi sit dolores officiis debitis. Laborum, tempore?
+                        Lorem quasi qui facere sint, architecto error iusto nam asperiores vero recusandae similique incidunt. Tempora dolorem quos delectus deleniti quaerat, quia sunt, magnam atque quod facilis distinctio fuga id repudiandae.</p>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-sec">
+        <hr id="line1">
+
+        <div class="container2">
+
+            <div class="s-e-e-section">
+
+                <div class="skills-edu-exp active-tab" onclick="opentab('skills')">
+                    <h1 class="h1-s-e-e ">Skills</h1>
+                </div>
+
+
+                <div class="skills-edu-exp" onclick="opentab('education')">
+                    <h1 class="h1-s-e-e ">Education</h1>
+                </div>
+
+                <div class="skills-edu-exp" onclick="opentab('experience')">
+                    <h1 class="h1-s-e-e ">Experience</h1>
+                </div>
+            </div>
+
+
+            <div class="skills-contents active-contents" id="skills">
+
+                <div id="skills-screen-sec">
+                    <div class="S-E-E-heading">
+                        <h1>
+                            <span>Skills</span>
+                        </h1>
+                    </div>
+
+                    <div class="skills-line1">
+
+                        <div class="skill-name">
+                            <div class="firstskill">
+                                <span>HTML</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-name">
+                            <div class="secondskill">
+                                <span>CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-name">
+                            <div class="thirdskill">
+                                <span>JAVASCRIPT</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="skills-line2">
+
+                        <div class="skill-name">
+                            <div class="fourthskill">
+                                <span>BOOTSTRAP</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-name">
+                            <div class="fifthskill">
+                                <span>ANGULAR</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- EDUCATION SCREEN SECTION -->
+
+
+            <div class="skills-contents" id="education">
+
+                <div id="education-screen-sec">
+                    <div class="S-E-E-heading">
+                        <h1>
+                            <span>Education</span>
+                        </h1>
+                    </div>
+                    <div class="edu-data">
+
+                        <ul id="edu-ul">
+                            <div class="secondary-edu">
+                                <h3>Secondary Education</h3>
+                                <li>12TH - GSSS DUTTNAGAR</li>
+                            </div>
+                            <div class="college-edu">
+                                <h3>Bachelor Of Science</h3>
+                                <li>BSc - GOVT. DEGREE COLLEGE RAMPUR BUSHAHR (HPU) </li>
+                            </div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- EXPERIENCE SCREEN SECTION -->
+
+
+            <div class="skills-contents" id="experience">
+
+                <div id="experience-screen-sec">
+                    <div class="S-E-E-heading">
+                        <h1>
+                            <span>Experience</span>
+                        </h1>
+                    </div>
+                    <div class="exp-data">
+                        HEY , I AM A FRESHER LOOKING FOR A INTERNSHIP
+                    </div>
+                </div>
+
+
+            </div>
+
+    </section>
+
+
+
+    <section id="contact-sec">
+        <div id="contact-heading"><span>Contact</span></div>
+
+        <div id="contact-container">
+
+
+            <div class="form-container">
+                <form class="contact-form">
+                    <input type="text" id="name" class="form-class" name="name" placeholder="your name">
+                    <input type="text" id="email" class="form-class" name="input-mail" placeholder="your Email">
+                    <textarea name="input-message" id="message" class="form-class" cols="3" rows="5"
+                        placeholder="Drop a message"></textarea>
+
+
+                </form>
+            </div>
+
+
+            <div class="details-container">
+                <div class="details1">
+                    <h3 class="details-heading">
+
+                        Get in touch
+                    </h3>
+
+                    <p>We value your feedback, inqueries, suggestions. Feel free to reach out to us using the contact
+                        information below, and we will be happy to assist you.</p>
+                </div>
+
+
+                <div class="details2">
+
+                    <h3 class="details-heading">My Address</h3>
+                    <ul>
+                        <li class="address-details">Shimla, Himachal Pradesh, India</li>
+                        <li class="address-details">8585858585</li>
+                        <li class="address-details">abcdefgh@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+    <div class="social-media">
+       <div class="s-m-name"><i class="fa-brands fa-linkedin"></i>LinkedIn</div>
+       <div class="s-m-name"><i class="fa-brands fa-square-facebook"></i>Facebook</div>
+       <div class="s-m-name"><i class="fa-brands fa-square-instagram"></i>Instagram</div>
+       <div class="s-m-name"><i class="fa-brands fa-square-whatsapp"></i>Whatsapp</div>
+    </div>
+
+    <section id="footer-sec">
+
+        <div class="footer">
+            This is a footer section
+        </div>
+
+
+    </section>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
