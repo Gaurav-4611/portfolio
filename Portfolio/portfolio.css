@@ -79,20 +79,22 @@ main {
 
 .left-sec {
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 3vw;
     margin: 25px 0px;
     width: 340px;
 }
 
 .spanclr {
     color: #78d2bd;
-    font-weight: 600;
-    font-size: larger;
+    /* font-weight: 600; */
+    /* font-size: 3.3vw; */
 }
 
 #element {
     color: #78d2bd;
     animation: 3s infinite;
+    /* font-size: 3vw; */
+
 
 }
 
@@ -163,7 +165,7 @@ main {
 
 .h1-s-e-e {
     /* padding: 10px 0px 0px 0px; */
-    font-size: 30px;
+    font-size: 3.2vw;
     /* margin: 0px 25px; */
 
 
@@ -228,7 +230,7 @@ main {
 .S-E-E-heading {
     text-align: center;
     margin: 5px 0px 10px 0px;
-    font-size: 22px;
+    font-size: 2.2vw;
 
 }
 
@@ -255,8 +257,8 @@ main {
 }
 
 .skill-name span {
-    font-size: 25px;
-    margin: 10px;
+    font-size: 2.3vw;
+    margin: 0.5vw;
 }
 
 
@@ -510,15 +512,16 @@ nav .fa-solid {
     }
     
     nav ul {
-        background: #DE0005;
+        background: #467989;
         position: fixed;
         top: 0px;
         right: -160px;
-        width: 160px;
+        width: 155px;
         height: 100vh;
         padding-top: 45px;
         margin: auto;
         transition: right 0.5s;
+        z-index: 1  ;
 
 
     }
@@ -530,6 +533,8 @@ nav .fa-solid {
     nav .fa-solid {
         display: block;
         font-size: 32px;
+        cursor: pointer;
+
 
     }
 
@@ -595,12 +600,6 @@ nav .fa-solid {
     #skills-sec {
         padding: 0px 30px 30px;
     }
-
-    .skill-name span {
-        margin: 4px;
-        font-size: 14px;
-    }
-
 
     #experience-screen-sec {
         padding: 20px 10px 60px;
