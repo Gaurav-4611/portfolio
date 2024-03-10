@@ -366,13 +366,11 @@ main {
 /* .... social media section */
 
 .social-media {
-    /* border: 2px solid; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     cursor: pointer;
     margin: 0px;
-    /* padding: 15px 150px 25px; */
     font-size: 20px;
 }
 
@@ -423,7 +421,7 @@ nav .fa-solid {
 
     .social-media {
         font-size: 16px;
-        padding: 15px 100px 25px;
+        /* padding: 15px 100px 25px; */
 
     }
 
@@ -455,7 +453,7 @@ nav .fa-solid {
         /* margin: 5px 10px; */
     }
     .social-media {
-        padding: 15px 100px 25px;
+        padding: 0px 50px 0px;
         
     }
 
@@ -495,7 +493,7 @@ nav .fa-solid {
     }
     .social-media {
         font-size: 14px;
-        padding: 15px 100px 25px;
+        padding: 0px 50px 0px;
             }
             .fa-brands {
                 font-size: 20px;
@@ -558,6 +556,19 @@ nav .fa-solid {
 
 }
 
+
+@media only screen and (max-width: 514px) {
+    .details1 p {
+        font-size: 12px;
+    }
+    .details-heading {
+        font-size: 16px;
+    }
+    .details2 ul li {
+        font-size: 12px;
+        
+    }
+}
 
 @media only screen and (max-width: 430px) {
     nav{
@@ -632,7 +643,7 @@ nav .fa-solid {
     }
 .social-media{
     display: block;
-    padding: 5px 20px 25px;
+    padding: 5px 20px ;
     justify-content: flex-start;
 
 
