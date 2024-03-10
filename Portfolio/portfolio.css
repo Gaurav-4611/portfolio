@@ -20,7 +20,6 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     font-size: 2rem;
-    /* background-color: rgb(0, 70, 120); */
     margin: 0px 50px;
     height: 70px;
 
@@ -86,14 +85,12 @@ main {
 
 .spanclr {
     color: #78d2bd;
-    /* font-weight: 600; */
-    /* font-size: 3.3vw; */
+   
 }
 
 #element {
     color: #78d2bd;
     animation: 3s infinite;
-    /* font-size: 3vw; */
 
 
 }
@@ -115,7 +112,6 @@ main {
 
 #aboutsection {
     padding: 100px 30px;
-    /* background-color: #78d2bd; */
     flex-wrap: wrap;
 }
 
@@ -143,18 +139,6 @@ main {
 
 }
 
-/* .col-1{
-    /* flex-basis: 35%; */
-/* background-color: antiquewhite;
-} */
-/* .col-2{
-    
-    flex-basis: 60%;
-    background-color: aqua;
-    
-} */
-
-
 
 #skills-sec {
     padding: 0px 30px 70px;
@@ -164,16 +148,13 @@ main {
 }
 
 .h1-s-e-e {
-    /* padding: 10px 0px 0px 0px; */
     font-size: 3.2vw;
-    /* margin: 0px 25px; */
 
 
 }
 
 .skills-edu-exp {
-    /* border: 2px solid red;  */
-    /* flex-basis: 30%; */
+   
     cursor: pointer;
     position: relative;
 
@@ -214,17 +195,14 @@ main {
 
 #skills-screen-sec {
     padding: 20px 0px;
-    /* border: 2px solid; */
 }
 
 #education-screen-sec {
     padding: 20px 0px 60px;
-    /* border: 2px solid; */
 }
 
 #experience-screen-sec {
     padding: 20px 0px 60px;
-    /* border: 2px solid; */
 }
 
 .S-E-E-heading {
@@ -247,7 +225,6 @@ main {
 }
 
 .skill-name {
-    /* width: 25%; */
     border: 2px solid #bf5050;
     padding: 2px;
     border-radius: 10px;
@@ -421,8 +398,6 @@ nav .fa-solid {
 
     .social-media {
         font-size: 16px;
-        /* padding: 15px 100px 25px; */
-
     }
 
     .fa-brands {
@@ -450,7 +425,6 @@ nav .fa-solid {
 
     nav ul {
         font-size: 1.4rem;
-        /* margin: 5px 10px; */
     }
     .social-media {
         padding: 0px 50px 0px;
