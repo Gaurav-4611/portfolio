@@ -370,8 +370,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    cursor: pointer;
     margin: 0px;
-    padding: 15px 150px 25px;
+    /* padding: 15px 150px 25px; */
     font-size: 20px;
 }
 
